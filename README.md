@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## AndroidEffectPlayGlound
+VJしてる時の後ろで最終バックアップ用のアプリ。
 
-You can use the [editor on GitHub](https://github.com/NakanishiMasaru/AndroidEffectPlayGlound/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# 機能(予定)
+- [ ] 画面をHDMI出力
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+RPα
+- [ ] いつでも自分のShaderが見れる
+- [ ]　AudioReactiveは基本。（それしか知らないね）
+        音声入力をShaderに直接渡せる仕組み
+- [ ] 眺めて気持ち良くなる
 
-### Markdown
+RPβ
+- [ ] ビートに合わせて動かしたくなるのでTouch対応
+- [ ] Touchで反応するEseを変える
+- [ ] マルチタッチもしたくなる。左右で違うエフェクト
+- [ ] 眺めてとても気持ち良くなる
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NakanishiMasaru/AndroidEffectPlayGlound/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+製品版
+- [ ] 反応するレイヤーが欲しくなる。Geo Trans Overlayの3つで構成
+- [ ] レイヤー差し替え機能が欲しくなる。タイマーOrBang回数で更新
+- [ ] Bangが要るならFFT機能も付けたい。
+- [ ] 眺めて最上級の気持ちよさを感じる
