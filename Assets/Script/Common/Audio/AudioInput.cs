@@ -1,4 +1,4 @@
-﻿using Script.Texture.Texture;
+﻿using Texture.Texture;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -7,8 +7,9 @@ namespace Script.Common.Audio
     public class AudioInput : MonoBehaviour
     {
         [SerializeField] private AudioSource audioSource;
-        [SerializeField] private float[] spectrum = new float[256];
+        [SerializeField] private float[] spectrum;
         [SerializeField] private ModifyTexture mod;
+        
         void Start()
         {
             audioSource = GetComponent<AudioSource>();
@@ -21,7 +22,8 @@ namespace Script.Common.Audio
         // Update is called once per frame
         void Update()
         {
-            AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
+            //AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
+            spectrum =  audioSource.GetSpectrumData(spectrum.Length, 0,FFTWindow.Hamming);
             mod.spectrum = spectrum;
         }
     }
